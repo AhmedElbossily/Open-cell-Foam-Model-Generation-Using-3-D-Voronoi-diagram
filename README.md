@@ -1,4 +1,5 @@
 # Open cell Foam Model Generation
+
 - Voronoi diagram was generated using n seeds in unit cube to model open-cell foam.
 - Voronoi seeds were generated using [Modified MPS](http://www.cs.sandia.gov/~samitch/papers/cccg-present.pdf) for regularity less than 80%.
 - Voronoi seeds were generated using [Simple MPS by Implicit Quad-Trees](https://link.springer.com/chapter/10.1007%2F978-3-662-44900-4_13) for regularity higher than 80%.
@@ -7,6 +8,7 @@
 - The code was developed to generate these models automatically.
 - This program encapsulates [TetGen library](http://wias-berlin.de/software/tetgen/) to get Voronoi cells. 
 - The code was used to generate virtual structure models which simulate the internal structure of foam material. For the visualization of the simulation [watch this video on Youtube] (https://www.youtube.com/watch?v=NMC2FxQ047E) 
+![Simulation Output](https://academy.3ds.com/sites/default/files/Graphical%20abstract_0.jpg)
 
 ## Compiling
 The software has been compiled using cmake and g++ on Linux. The code uses c++17 extensions.
