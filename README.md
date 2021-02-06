@@ -33,8 +33,8 @@ To credit this work, please cite the following paper and software:
  year = {2018},
  articleno = {76},
  numpages = {12},
- url = {http://amme.journals.ekb.eg/article_35022.html},
- doi = {10.21608/amme.2018.35022},
+ url = {https://amme.journals.ekb.eg/article_35022.html},
+ doi = {10.21608/AMME.2018.35022},
  keywords = {Open-celled Aluminium foam; Computer simulations; Finite element modelling},
    note={Open source software available from \url{https://github.com/ahmedfathy17/Open-cell-Foam-Model-Generation-Using-3-D-Voronoi-diagram.git}}
 } 
