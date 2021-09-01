@@ -16,9 +16,10 @@ The software has been compiled using cmake and g++ on Linux. The code uses c++17
 ## Basic Build Instructions
 
 1. Clone this repo.
-2. Make a build directory in the top level directory: `mkdir build && cd build`
-3. Compile: `cmake .. && make`
-4. Run it: `./foam`. 
+2. Make an output directory in the top level directory: `mkdir output`
+3. Make a build directory in the top level directory: `mkdir build && cd build`
+4. Compile: `cmake .. && make`
+5. Run it: `./foam`. 
 
 ## Interface
 There is no interface for the current version. You can modify the output by modifing the main function.  
